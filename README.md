@@ -3,15 +3,13 @@
 [![GitHub Release](https://img.shields.io/github/v/release/khcrysalis/protokolle?include_prereleases)](https://github.com/khcrysalis/protokolle/releases)
 [![GitHub License](https://img.shields.io/github/license/khcrysalis/protokolle?color=%23C96FAD)](https://github.com/khcrysalis/protokolle/blob/main/LICENSE)
 
-The iOS/iPadOS equivalent to macOS's `Console.app`. This app uses [idevice](https://github.com/jkcoxson/idevice) and lockdownd pairing to stream messages from the trace relay, allowing you to see messages from other processes within iOS. Along with having advanced filtering and options for advanced debugging and performance.
-
-### Demo
-
 |					![Demo of streaming trace logs](Images/demo.webp)						 |
 | :----------------------------------------------------------------------------------------: |
 | Demo of streaming trace logs from [Feather-idevice](https://github.com/khcrysalis/feather) |
 
-### Features
+The iOS/iPadOS equivalent to macOS's `Console.app`. This app uses [idevice](https://github.com/jkcoxson/idevice) and lockdownd pairing to stream messages from the trace relay, allowing you to see messages from other processes within iOS. Along with having advanced filtering and options for advanced debugging and performance.
+
+## Features
 
 - Stream system logs (messages)
 - View system logs with immense detail (i.e. `pid`, `name`, `message`, `sendor`, `date`, `type`).
@@ -22,7 +20,7 @@ The iOS/iPadOS equivalent to macOS's `Console.app`. This app uses [idevice](http
 
 ## Download
 
-<a href="https://apps.apple.com/us/app/example-app/id123456789" target="_blank" rel="noopener noreferrer">
+<a href="https://apps.apple.com/us/app/protokolle/id6746388316" target="_blank" rel="noopener noreferrer">
     <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" style="width: 200px; height: auto;">
 </a>
 
@@ -68,16 +66,6 @@ Using the makefile will automatically create an adhoc ipa inside the packages di
 |:-:|
 | <img src="https://raw.githubusercontent.com/khcrysalis/github-sponsor-graph/main/graph.png"> |
 | _**"samara is cute" - Vendicated**_ |
-
-## Star History
-
-<a href="https://star-history.com/#khcrysalis/protokolle&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=khcrysalis/protokolle&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=khcrysalis/protokolle&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=khcrysalis/protokolle&type=Date" />
- </picture>
-</a>
 
 ## Acknowledgements
 
