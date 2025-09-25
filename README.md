@@ -3,13 +3,13 @@
 [![GitHub Release](https://img.shields.io/github/v/release/khcrysalis/protokolle?include_prereleases)](https://github.com/khcrysalis/protokolle/releases)
 [![GitHub License](https://img.shields.io/github/license/khcrysalis/protokolle?color=%23C96FAD)](https://github.com/khcrysalis/protokolle/blob/main/LICENSE)
 
-|					![Demo of streaming trace logs](Images/demo.webp)						 |
+|					![Demo of streaming trace logs](demo.webp)						 |
 | :----------------------------------------------------------------------------------------: |
-| Demo of streaming trace logs from [Feather-idevice](https://github.com/khcrysalis/feather) |
+| Demo of streaming trace logs from [Feather](https://github.com/khcrysalis/feather) |
 
 The iOS/iPadOS equivalent to macOS's `Console.app`. This app uses [idevice](https://github.com/jkcoxson/idevice) and lockdownd pairing to stream messages from the trace relay, allowing you to see messages from other processes within iOS. Along with having advanced filtering and options for advanced debugging and performance.
 
-## Features
+### Features
 
 - Stream system logs (messages)
 - View system logs with immense detail (i.e. `pid`, `name`, `message`, `sendor`, `date`, `type`).
