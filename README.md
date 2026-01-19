@@ -26,7 +26,7 @@ The iOS/iPadOS equivalent to macOS's `Console.app`. This app uses [idevice](http
 
 ## How does it work?
 - Establish a heartbeat with a TCP provider (the app will need this for later).
-  - For it to be successful, we need a pairing file from [PlumeImpactor](https://github.com/khcrysalis/Impactor?tab=readme-ov-file#pairing-file) and a [VPN](https://apps.apple.com/us/app/stosvpn/id6744003051).
+  - For it to be successful, we need a pairing file from [PlumeImpactor](https://github.com/khcrysalis/Impactor?tab=readme-ov-file#pairing-file) and a [VPN](https://apps.apple.com/us/app/localdevvpn/id6755608044).
   - Once we have these and the connection was successfully established, we can move on to the streaming part.
   - Before streaming, we need to check for the connection to the socket that has been created, routed to `10.7.0.1`, if this succeeds we're ready.
 - When preparing the stream, we need to establish another connection but for `syslog_relay` using our TCP provider and heartbeat provider.
