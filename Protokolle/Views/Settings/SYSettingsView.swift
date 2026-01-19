@@ -109,7 +109,7 @@ extension SYSettingsView {
 	private func _help() -> some View {
 		Section(.localized("Help")) {
 			Button(.localized("Pairing File Guide"), systemImage: "questionmark.circle") {
-				UIApplication.open("https://github.com/StephenDev0/StikDebug-Guide/blob/main/pairing_file.md")
+				UIApplication.open("https://github.com/khcrysalis/Impactor?tab=readme-ov-file#pairing-file")
 			}
 			Button(.localized("Download StosVPN"), systemImage: "arrow.down.app") {
 				UIApplication.open("https://apps.apple.com/us/app/stosvpn/id6744003051")
