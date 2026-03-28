@@ -223,7 +223,6 @@ extension SYStreamViewController {
 		
 		if let sheet = controller.sheetPresentationController {
 			sheet.detents = [.medium(), .large()]
-			sheet.preferredCornerRadius = 20
 			sheet.prefersGrabberVisible = true
 		}
 		

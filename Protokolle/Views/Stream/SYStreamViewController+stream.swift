@@ -29,7 +29,7 @@ extension SYStreamViewController {
 						
 						UIAlertController.showAlertWithOk(
 							title: .localized("Stream"),
-							message: error.localizedDescription,
+							message: "\(error)",
 							action: {
 								HeartbeatManager.shared.start(true)
 							}
